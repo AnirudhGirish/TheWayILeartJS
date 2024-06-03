@@ -36,7 +36,7 @@ To get started, follow these steps:
     ```
 
 
-## Tech Used
+## Tech
 
 **Codes**: `JavaScript`
 

@@ -36,7 +36,7 @@ To get started, follow these steps:
     ```
 
 
-## Tech Stack
+## Tech Used
 
 **Codes**: `JavaScript`
 

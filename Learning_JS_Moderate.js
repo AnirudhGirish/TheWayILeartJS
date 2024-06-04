@@ -154,3 +154,18 @@ console.log(s)
 //     "root": "mac-book-pro-13",
 // }
 //Example of JSON format
+
+//!Functions 
+function addition(num1, num2) {
+    let num3 = num1 + num2
+    console.log(`The sum of 2 numbers ${num1} and ${num2} added using function is ${num3}`)
+    return num3
+}
+let a1 = addition(100, 500)
+console.log(`Hel ${a1}`)
+let a2 = addition("10", 5)
+console.log(`Hell ${a2}`)
+let a3 = addition(10, "5")
+console.log(`Hello ${a3}`)
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions link to functions reference

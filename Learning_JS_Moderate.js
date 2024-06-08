@@ -169,3 +169,32 @@ let a3 = addition(10, "5")
 console.log(`Hello ${a3}`)
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions link to functions reference
+
+//* Arrow functions
+//I will define 2 functions to show difference between a function and arrow function
+const one = function (num1,num2){//normal function
+    sum=num1+num2
+    console.log(sum)
+}
+one(4,5)
+//arrow function can be defined 2 ways
+const two = (num1,num2)=>{//way 1 arrow function(explicit return)
+    sum=num1+num2
+    console.log(sum)
+}
+two(4,5)
+
+const three = (num1,num2) => (num1+num2)//way 2 arrow function(impilict return)
+console.log(three(3,5));
+
+
+//*Immediately Invoked Function Expressions (IIFE)
+//To remove pollution from global scope
+// Syntax ()() the first parantesis will be function defination and second will be for execution
+(function car() {//named IIFE
+    console.log("DB IS CONNECTED")
+})();
+
+(() => {//Normal IIFE
+    console.log("DB IS CONNECTED")
+}) ()
